@@ -1,0 +1,72 @@
+/* ============================
+	Mohammad Abu Zaid 
+	University of Denver College of Professional Studies 
+	September 28, 2025 
+	Instructor: Dr. Ryan Rucker 
+	Director: Michelle Kruse-Crocker, Ph.D. 
+	Dean: Michael McGuire, M.L.S. 
+   ============================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
+  /* page background */
+  background: #181818;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Header & footer */
+header,
+footer {
+  background: #1f1f1f;
+  padding: 16px;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #2b2b2b;
+}
+
+/* Main content panel */
+article#brief {
+  /* centers & limits line length */
+  max-width: 900px;
+  /* horizontal centering */
+  margin: 20px auto;
+  padding: 20px;
+  /* panel background */
+  background: #242424;
+  /* soft corners */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  color: #ffffff;
+}
+
+h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.25rem;
+  color: #4ade80;
+  /* underline divider */
+  border-bottom: 1px solid #2b2b2b;
+  padding-bottom: 0.25rem;
+}
+
+/* Text & lists */
+p,
+li {
+  font-size: 1rem;
+}
+ul {
+  padding-left: 1.25rem;
+}
